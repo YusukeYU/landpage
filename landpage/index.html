@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <title> E-book</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="col">
+        <div class="recebe-header">
+            <h1>E-book Digital</h1>
+        </div>
+        <div class="recebe-img">
+            <div class="test">
+                <h1 class="master-h1"> Promoção!</h1>
+            </div>
+            <div class="test">
+                <h2 class="master-h2"> Adquira já um e-book gratuito sobre Programação!</h2>
+            </div>
+            <img src="img/banner.jpg">
+        </div>
+    </div>
+    <div class="col">
+        <div class="show">
+            <h1> Vantagens do E-book</h1>
+            <ul style="margin-top: 5rem;    padding: 0;">
+                <li>
+                    <img src="img/01.png">
+                    <h3 style="margin-top: 1.5rem;"> Criatividade</h3>
+                    <p> Explore sua criatividade!</p>
+                </li> <br class="topper" style="display: none;">
+                <li>
+                    <img src="img/02.png">
+                    <h3 style="margin-top: 1.5rem;"> Lógica</h3>
+                    <p> Exapanda sua lógica.</p>
+                </li> <br class="topper" style="display: none;">
+                <li>
+                    <img src="img/03.png">
+                    <h3 style="margin-top: 1.5rem;"> Futuro</h3>
+                    <p> Seja a área do futuro.</p>
+                </li> <br class="topper" style="display: none;">
+            </ul>
+        </div>
+    </div>
+
+    <div class="col">
+        <div class="recebe-form">
+            <h2 style="font-weight: 300;">
+                Adquira já!
+            </h2>
+            <form>
+                <input type="text" id="name" placeholder="nome">
+                <input type="number" id="age" placeholder="idade"><br>
+                <input type="text" id="phone" placeholder="telefone">
+                <input type="text" id="email" placeholder="email"><br>
+                <input onblur="procurarcep(this.value);" type="text" id="cep" placeholder="cep">
+                <input type="text" id="rua" placeholder="rua"><br>
+                <input type="text" id="bairro" placeholder="bairro">
+                <input type="text" id="cidade" placeholder="cidade"> <br>
+                <input type="text" id="uf" placeholder="estado">
+                <input type="number" id="numero" placeholder="número"> <br>
+                <button type="button"> Enviar</button>
+
+
+            </form>
+        </div>
+    </div>
+    <script src="js/main.js">
+    </script>
+</body>
+
+</html>
